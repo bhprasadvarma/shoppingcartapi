@@ -8,7 +8,7 @@ Shopping Cart API using Spring Boot Microservices
 
 3.**End Point(s) for API**
   A.Cart related EndPoints
-      1.Retrieve Carts          ::: **http://localhost:8899/cartapi/carts**             | GET  Method
+      1.Retrieve Carts          ::: **http://localhost:8899/cartapi/carts**             | GET  Method  <Br/>
       2.Retrieve Specific Cart  ::: **http://localhost:8899/cartapi/carts /{cartId}**   | GET  Method
       3.Add New Cart            ::: **http://localhost:8899/cartapi/carts**             | POST Method
       4.Update Cart             ::: **http://localhost:8899/cartapi/carts /{cartId}**   | PUT Method

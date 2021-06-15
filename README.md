@@ -1,8 +1,15 @@
-# shoppingcartapi
-Shopping Cart API using Spring Boot Microservices
+# Shopping Cart API
+  Shopping Cart API is used create a shopping cart, get the shopping cart, get a product in the shopping cart, add a product to the shopping cart,delete a product from the cart,create a product,get the product and delete product. <br/>
+  
+Tech Stack for this Shopping Cart API <br/>
+&nbsp;&nbsp;&nbsp;1.Java 8  <br/>
+&nbsp;&nbsp;&nbsp;2.Spring & **Spring Boot** <br/>
+&nbsp;&nbsp;&nbsp;3.Hibernate & JPA <br/>
+&nbsp;&nbsp;&nbsp;4.**Postgres** <br/>
+&nbsp;&nbsp;&nbsp;5.Maven <br/>
+&nbsp;&nbsp;&nbsp;6.PostMan
 
 1.update DB properties in src\main\resources\application.properties according to your Database
-(currently using PostgreSQL and changed server port 8899)
 
 2.change Content-Type : application/json  in Header (used **POSTMAN** for testing these API Endpoints)
 
@@ -14,7 +21,7 @@ Shopping Cart API using Spring Boot Microservices
       4.Update Cart             ::: **http://localhost:8899/cartapi/carts /{cartId}**   | PUT Method   <br/>
       5.Delete Cart             ::: **http://localhost:8899/cartapi/carts /{cartId}**   | DELETE Method <br/>
   
-  **Sample Cart Payload** <br/>
+  **Sample Cart Payload**
   [
     {
         "id": "1",
@@ -38,9 +45,8 @@ Shopping Cart API using Spring Boot Microservices
       3.Add New Product to Cart                 ::: **http://localhost:8899/cartapi/carts/{cartId}/products**                 | POST Method <br/>
       4.Update Product in Cart                  ::: **http://localhost:8899/cartapi/carts/{cartId}/products/{productId}**     | PUT Method  <br/>
       5.Remove Product from Cart                ::: **http://localhost:8899/cartapi/carts/{cartId}/products/{productId}**     | DELETE Method <br/>
- 
       
-**Sample Products in Cart Payload** <br/>      
+**Sample Products in Cart Payload**      
 {
     "id": "1",
     "countryCode": "IN",
@@ -74,7 +80,7 @@ Shopping Cart API using Spring Boot Microservices
       4.Update Cart             ::: **http://localhost:8899/cartapi/products /{productId}**   	| PUT Method <br/>
       5.Delete Cart             ::: **http://localhost:8899/cartapi/products /{productId}**   	| DELETE Method <br/>
  
- **Sample Product Payload**  <br/>        
+ **Sample Product Payload**        
  [
     {
         "id": "1",

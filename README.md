@@ -1,5 +1,5 @@
 # Shopping Cart API
-  Shopping Cart API is used create a shopping cart, get the shopping cart, get a product in the shopping cart, add a product to the shopping cart,delete a product from the cart,create a product,get the product and delete product. <br/>
+  Shopping Cart API is used create a shopping cart, get the shopping cart, edit shopping cart, delete shopping cart, get a product in the shopping cart, add a product to the shopping cart, delete a product from the cart, create a product, get the product, edit product and delete product. <br/>
   
 Tech Stack for this Shopping Cart API <br/>
 &nbsp;&nbsp;&nbsp;1.Java 8  <br/>

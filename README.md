@@ -7,9 +7,8 @@ Tech Stack for this Shopping Cart API <br/>
 &nbsp;&nbsp;&nbsp;3.Hibernate & JPA <br/>
 &nbsp;&nbsp;&nbsp;4.**Postgres** <br/>
 &nbsp;&nbsp;&nbsp;5.Maven <br/>
-&nbsp;&nbsp;&nbsp;6.PostMan
 
-1.update DB properties in src\main\resources\application.properties according to your Database
+1.update DB properties in **src\main\resources\application.properties** according to your Database
 
 2.change Content-Type : application/json  in Header (used **POSTMAN** for testing these API Endpoints)
 
